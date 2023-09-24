@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="exemplo de fallback">
-    <title>Minha primeira PWA</title>
+    <title>Banco de Dados</title>
     <link rel="apple-touch-icon" href="images/pwa-icon-256.png" />
     <link rel="stylesheet" href="css/style.css" />
     <!--viewport para designers responsivos (mobo), content é a configuração-->
@@ -18,23 +18,17 @@
 
 <body class="fullscreen">
     <div class="container">
-        <h1 class="title">Minha primeira PWA</h1>
-        <div style="text-align: center;">
-          
-          
-           <input type="text" placeholder="nome" id="nome " name="nome"/>
-           <input type="text" placeholder="idade" id="idade" name="idade"/>
-            
+        <h1 class="title">Meu Banco de Dados</h1>
+        <input type="text" placeholder="Buscar por Nome" id="buscarNome" name="buscarNome" />
+        <button id="btnBuscar">Buscar</button><br/>
+        <input type="text" placeholder="Nome" id="nome" name="nome" />
+        <input type="text" placeholder="Idade" id="idade" name="idade" />
+        <button id="btnSalvar">Salvar</button>
+        <button id="btnListar">Listar</button>
+      
+        <button id="btnRemover">Remover</button>
+        <button id="btnAtualizar">Atualizar</button>
 
-           <input type="text" placeholder="buscar" id="buscar" name="buscar"/>
-           <button id="buscar">Buscar</button>
-
-        </div>
-        <div style="text-align: center;">
-            <button id="btnSalvar">Salvar</button>
-            <button id="btnListar">Listar</button>
-        </div>
-        <div>
             <output></output>
         </div>
     </div>

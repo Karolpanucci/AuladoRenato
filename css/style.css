@@ -1,17 +1,69 @@
-body {
-    font-family: sans-serif;
-}
-
-html, .fullscreen {
-    display: flex;
-    height: 100%;
+/* Reset de estilos padrão do navegador */
+body, h1, p, input, button, output {
     margin: 0;
     padding: 0;
-    width: 100%;
+    font-family: Arial, sans-serif;
 }
 
-.container {
-    margin: auto;
+/* Estilos para o corpo da página */
+body {
+    background-image: url('https://i.pinimg.com/originals/6d/73/5e/6d735ebe9db1126500d2a2c941491f93.jpg');
+    width: auto;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+/* Estilos para o cabeçalho (título) */
+.title { 
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #a200ff;
+}
+
+/* Estilos para os campos de entrada de texto */
+input[type="text"] {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Estilos para os botões */
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #a200ff;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #cc00ff;
+}
+
+/* Estilos para a área de saída */
+output {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border-radius: 5px;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.692);
+    width: 70%;
+  margin-left: 15%;
+  margin-top: 15%;
+  border-radius: 5%;
 }
 
 .title {
